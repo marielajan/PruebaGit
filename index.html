@@ -1,13 +1,193 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <!--titulo de la pestaña-->
         <title>Pagina Web</title>
+        <!--cdn para iconos-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Sliders-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--estilos-->
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Primer pagina Web</h1>
-        <i class="fa fa-trash"></i>
-      
+        <!--<h1>Primer pagina Web</h1>-->
+        <!--<i class="fa fa-trash"></i>-->
+        <div id="wrapper">
+            <!--Banner-->
+            <div id="banner-wrapper">
+                <head>
+                    <div class="header.inner">
+                        <a href="index.html" id="logo"> <!--etiqueta-->
+                            <img src="img/pics/1.jpg" alt="logoINTI">
+                        </a> 
+                        <nav> <!--para navegacion-->
+                            <a href="#" id="menu-icon">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <ul><!--lista desordenada que contiene los enlaces de las pestañas de navegacion-->
+                                <li><!--lista-->
+                                    <a href="index.html" class="current">Inicio</a>
+                                </li>
+                                <li><!--lista-->
+                                    <a href="#services">Servicios</a>
+                                </li>
+                                <li><!--lista-->
+                                    <a href="#portfolios">Portafolios</a>
+                                </li>
+                                <li><!--lista-->
+                                    <a href="#authorities">Autoridades</a>
+                                </li>
+                                <li><!--lista-->
+                                    <a href="#contacts">Contactos</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </head>
+                <section class="stilder.wrap">
+                    <ul class="slider1">
+                        <li><img src="img/sliders/descarga1.jpg" alt="Sliders 1"></li>
+                        <li><img src="img/sliders/descarga2.jpg" alt="Sliders 2"></li>
+                        <li><img src="img/sliders/descarga3.jpg" alt="Sliders 3"></li>
+                        <li><img src="img/sliders/descarga4.jpg" alt="Sliders 4"></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <section class="uno-tres" id="skills">
+            <div class="icon-wrap">
+                <i class="fa fa-desktop"></i>
+               <div>
+                   <h3>Diseño Web</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque dolore ipsa asperiores doloribus nihil, repudiandae odit aperiam non earum dolorum, amet rem blanditiis expedita labore omnis! Fugit, excepturi nostrum!</p>
+               </div>
+            </div>
+        </section>
+        <section class="uno-tres" id="skills">
+                <div class="icon-wrap">
+                    <i class="fa fa-pencil-square-o"></i>
+                   <div>
+                       <h3>Diseño Grafico</h3>
+                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque dolore ipsa asperiores doloribus nihil, repudiandae odit aperiam non earum dolorum, amet rem blanditiis expedita labore omnis! Fugit, excepturi nostrum!</p>
+                   </div>
+                </div>
+            </section>
+            <section class="uno-tres" id="skills">
+                    <div class="icon-wrap">
+                        <i class="fa fa-file-code-o"></i>
+                       <div>
+                           <h3>Desarrollo Web</h3>
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque dolore ipsa asperiores doloribus nihil, repudiandae odit aperiam non earum dolorum, amet rem blanditiis expedita labore omnis! Fugit, excepturi nostrum!</p>
+                       </div>
+                    </div>
+            </section>
+            <!--Portfolios-->
+            <section class="left-col" id="portfolios">
+                <h3>Portafolios</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ea harum cum perspiciatis, nesciunt molestias modi unde quidem error fugiat, neque at recusandae! Alias, quae reprehenderit? Cumque delectus molestias fugit.</p>
+            </section>
+            <section class="sid-bar">
+                <img src="#" alt="">
+            </section>
+            <!--Servicios-->
+            <div class="uno-cuatro.padding" id="services">
+                <h3>Servicio Uno</h3>
+                <img src="img/pics/descarga1.jpg" alt="Imagen1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quod!</p>
+            </div>
+            <div class="uno-cuatro.padding" id="services">
+                    <h3>Servicio Dos</h3>
+                    <img src="img/pics/descarga2.jpg" alt="Imagen2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quod!</p>
+            </div>
+            <div class="uno-cuatro.padding" id="services">
+                    <h3>Servicio Tres</h3>
+                    <img src="img/pics/descarga3.jpg" alt="Imagen3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quod!</p>
+            </div>
+            <div class="uno-cuatro.padding" id="services">
+                    <h3>Servicio Cuatro</h3>
+                    <img src="img/pics/descarga4.jpg" alt="Imagen4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quod!</p>
+             </div>
+             <footer>
+                 <div class="banner-wrapper">
+                     <div class="icon-text">
+                         <div class="icon-text-icon">
+                             <ul>
+                                 <li>
+                                     <a href="index.html">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="#skills">Servicios</a>
+                                </li>
+                                <li>
+                                    <a href="#">Portafolios</a>
+                                </li>
+                                    <a href="#skills">Contactos</a>
+                                </li>
+                             </ul>
+                         </div>
+                         <div class="icon-text-text">
+                             <ul>
+                                 <li>
+                                     <a href="mailto:consultasinti.gob.ar" target="_blanck">
+                                            <i class="fa fa-envelope-o"></i>
+                                     </a>
+                                    
+                                 </li>
+                                 <li>
+                                    <a href="https://facebook.com/inti.gob.ar" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>                                  
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/inti.gob.ar" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://youtube.com/inti.gob.ar" target="_blank">
+                                        <i class="fa fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/inti.gob.ar" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </footer>
+             <footer class="second-footer">
+                 <p>
+                     &copy; <a href="https:inti.gob.ar" target="_blanck">inti.gob.ar</a>
+                 </p>
+             </footer>
+                                
+
+      <!--Scripts-->
+      <script>
+       $(document).ready(function(){
+           $('.slider1').bxSlider({
+               mode:'fade'
+           })
+           $('.slider2').bxSlider({
+               mode:'fade'
+           })
+           $('.slider3').bxSlider({
+               mode:'fade'
+           })
+           $('.slider4').bxSlider({
+               mode:'fade'
+           })
+       })
+       </script>
+     
     </body>
 </html>
